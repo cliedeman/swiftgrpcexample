@@ -1,0 +1,17 @@
+{
+  "name": "swiftgrpcexample",
+  "displayName": "swiftgrpcexample",
+  "expo": {
+    "name": "swift-grpc-example",
+    "slug": "swiftgrpcexample",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
