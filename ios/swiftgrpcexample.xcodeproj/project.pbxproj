@@ -14,6 +14,18 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7790667B249B409400F3D526 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 7790667A249B409400F3D526 /* GRPC */; };
 		7790667D249B409400F3D526 /* CGRPCZlib in Frameworks */ = {isa = PBXBuildFile; productRef = 7790667C249B409400F3D526 /* CGRPCZlib */; };
+		7790668C249B421D00F3D526 /* client.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906680249B421D00F3D526 /* client.grpc.swift */; };
+		7790668D249B421D00F3D526 /* cloud_speech.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906681249B421D00F3D526 /* cloud_speech.grpc.swift */; };
+		7790668E249B421D00F3D526 /* http.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906682249B421D00F3D526 /* http.grpc.swift */; };
+		7790668F249B421D00F3D526 /* status.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906683249B421D00F3D526 /* status.pb.swift */; };
+		77906690249B421D00F3D526 /* cloud_speech.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906684249B421D00F3D526 /* cloud_speech.pb.swift */; };
+		77906691249B421D00F3D526 /* annotations.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906685249B421D00F3D526 /* annotations.pb.swift */; };
+		77906692249B421D00F3D526 /* operations.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906686249B421D00F3D526 /* operations.grpc.swift */; };
+		77906693249B421D00F3D526 /* http.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906687249B421D00F3D526 /* http.pb.swift */; };
+		77906694249B421D00F3D526 /* operations.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906688249B421D00F3D526 /* operations.pb.swift */; };
+		77906695249B421D00F3D526 /* status.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77906689249B421D00F3D526 /* status.grpc.swift */; };
+		77906696249B421D00F3D526 /* annotations.grpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790668A249B421D00F3D526 /* annotations.grpc.swift */; };
+		77906697249B421D00F3D526 /* client.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790668B249B421D00F3D526 /* client.pb.swift */; };
 		7B0C5784998A29E517983E0C /* libPods-swiftgrpcexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2502ACF51380E8237829647D /* libPods-swiftgrpcexample.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +42,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = swiftgrpcexample/main.m; sourceTree = "<group>"; };
 		2502ACF51380E8237829647D /* libPods-swiftgrpcexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftgrpcexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77906680249B421D00F3D526 /* client.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = client.grpc.swift; sourceTree = "<group>"; };
+		77906681249B421D00F3D526 /* cloud_speech.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cloud_speech.grpc.swift; sourceTree = "<group>"; };
+		77906682249B421D00F3D526 /* http.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = http.grpc.swift; sourceTree = "<group>"; };
+		77906683249B421D00F3D526 /* status.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = status.pb.swift; sourceTree = "<group>"; };
+		77906684249B421D00F3D526 /* cloud_speech.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cloud_speech.pb.swift; sourceTree = "<group>"; };
+		77906685249B421D00F3D526 /* annotations.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotations.pb.swift; sourceTree = "<group>"; };
+		77906686249B421D00F3D526 /* operations.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operations.grpc.swift; sourceTree = "<group>"; };
+		77906687249B421D00F3D526 /* http.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = http.pb.swift; sourceTree = "<group>"; };
+		77906688249B421D00F3D526 /* operations.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operations.pb.swift; sourceTree = "<group>"; };
+		77906689249B421D00F3D526 /* status.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = status.grpc.swift; sourceTree = "<group>"; };
+		7790668A249B421D00F3D526 /* annotations.grpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotations.grpc.swift; sourceTree = "<group>"; };
+		7790668B249B421D00F3D526 /* client.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = client.pb.swift; sourceTree = "<group>"; };
 		E40B1F720DE0D29BF6B90074 /* Pods-swiftgrpcexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftgrpcexample.release.xcconfig"; path = "Target Support Files/Pods-swiftgrpcexample/Pods-swiftgrpcexample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -52,6 +76,7 @@
 		13B07FAE1A68108700A75B9A /* swiftgrpcexample */ = {
 			isa = PBXGroup;
 			children = (
+				7790667E249B421D00F3D526 /* Sources */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -82,6 +107,34 @@
 				E40B1F720DE0D29BF6B90074 /* Pods-swiftgrpcexample.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7790667E249B421D00F3D526 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7790667F249B421D00F3D526 /* Generated */,
+			);
+			name = Sources;
+			path = swiftgrpcexample/Sources;
+			sourceTree = "<group>";
+		};
+		7790667F249B421D00F3D526 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				77906680249B421D00F3D526 /* client.grpc.swift */,
+				77906681249B421D00F3D526 /* cloud_speech.grpc.swift */,
+				77906682249B421D00F3D526 /* http.grpc.swift */,
+				77906683249B421D00F3D526 /* status.pb.swift */,
+				77906684249B421D00F3D526 /* cloud_speech.pb.swift */,
+				77906685249B421D00F3D526 /* annotations.pb.swift */,
+				77906686249B421D00F3D526 /* operations.grpc.swift */,
+				77906687249B421D00F3D526 /* http.pb.swift */,
+				77906688249B421D00F3D526 /* operations.pb.swift */,
+				77906689249B421D00F3D526 /* status.grpc.swift */,
+				7790668A249B421D00F3D526 /* annotations.grpc.swift */,
+				7790668B249B421D00F3D526 /* client.pb.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -247,7 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77906693249B421D00F3D526 /* http.pb.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				7790668C249B421D00F3D526 /* client.grpc.swift in Sources */,
+				7790668E249B421D00F3D526 /* http.grpc.swift in Sources */,
+				7790668D249B421D00F3D526 /* cloud_speech.grpc.swift in Sources */,
+				77906692249B421D00F3D526 /* operations.grpc.swift in Sources */,
+				77906694249B421D00F3D526 /* operations.pb.swift in Sources */,
+				77906697249B421D00F3D526 /* client.pb.swift in Sources */,
+				77906690249B421D00F3D526 /* cloud_speech.pb.swift in Sources */,
+				77906691249B421D00F3D526 /* annotations.pb.swift in Sources */,
+				7790668F249B421D00F3D526 /* status.pb.swift in Sources */,
+				77906696249B421D00F3D526 /* annotations.grpc.swift in Sources */,
+				77906695249B421D00F3D526 /* status.grpc.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +427,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -407,6 +473,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
